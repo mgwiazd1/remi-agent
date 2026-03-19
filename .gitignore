@@ -1,0 +1,16 @@
+.env
+*.session
+signal-buffer.json
+*.key
+remi_intelligence.db
+logs/
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+dist/
+.inbox-timestamps
+.inbox-processed
+digest.log
+*.log
+remi-intelligence/.git/

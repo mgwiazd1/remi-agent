@@ -1,0 +1,101 @@
+{
+  "feeds": [
+    {
+      "name": "Steno Research",
+      "url": "https://steno.substack.com/feed",
+      "tier": 1,
+      "clusters": [
+        "macro_liquidity",
+        "regime_matrix"
+      ],
+      "weight": 1.0
+    },
+    {
+      "name": "Lyn Alden",
+      "url": "https://www.lynalden.com/feed/",
+      "tier": 1,
+      "clusters": [
+        "macro_liquidity",
+        "fiscal_dominance",
+        "commodities"
+      ],
+      "weight": 1.0
+    },
+    {
+      "name": "Crossborder Capital",
+      "url": "https://crossbordercapital.substack.com/feed",
+      "tier": 1,
+      "clusters": [
+        "macro_liquidity",
+        "gli_methodology"
+      ],
+      "weight": 1.0
+    },
+    {
+      "name": "MacroAlf",
+      "url": "https://prometheusresearch.substack.com/feed",
+      "tier": 1,
+      "clusters": [
+        "macro_liquidity",
+        "credit_impulse"
+      ],
+      "weight": 0.9
+    },
+    {
+      "name": "Katusa Research",
+      "url": "https://katusaresearch.com/feed/",
+      "tier": 2,
+      "clusters": [
+        "commodities",
+        "critical_minerals",
+        "energy"
+      ],
+      "weight": 0.8
+    },
+    {
+      "name": "Bianco Research",
+      "url": "https://biancoresearch.com/feed/",
+      "tier": 2,
+      "clusters": [
+        "macro_liquidity",
+        "rates",
+        "credit"
+      ],
+      "weight": 0.8
+    },
+    {
+      "name": "Adam Tooze Chartbook",
+      "url": "https://adamtooze.substack.com/feed",
+      "tier": 2,
+      "clusters": [
+        "geopolitical",
+        "fiscal_dominance",
+        "china_macro"
+      ],
+      "weight": 0.8
+    },
+    {
+      "name": "ZeroHedge",
+      "url": "https://feeds.feedburner.com/zerohedge/feed",
+      "tier": null,
+      "signal_type": "contrarian_amplifier",
+      "clusters": [
+        "geopolitical",
+        "energy",
+        "credit"
+      ],
+      "weight": 0.6,
+      "filter_keywords": [
+        "PBOC",
+        "repo",
+        "oil",
+        "fertilizer",
+        "sanctions",
+        "sovereign",
+        "liquidity"
+      ]
+    }
+  ],
+  "poll_interval_hours": 6,
+  "max_content_age_days": 30
+}
