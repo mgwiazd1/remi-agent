@@ -191,3 +191,19 @@ This is what sovereign AI infrastructure looks like for a single person.
 ---
 
 *Remi. A man of many hats. Built on a homelab. Running at the bleeding edge.*
+
+## GLI Integration — Aestima Platform
+
+Remi's narrative intelligence pipeline is conditioned by live macro regime data from **Aestima** — a separate, custom-built multi-asset sentiment intelligence platform running on the same Proxmox host.
+
+At every document ingestion, Remi calls Aestima's `/api/agent/context` endpoint to stamp the document with:
+- **GLI Phase** — TURBULENCE / CALM / EXPANSION / TROUGH / SPECULATION
+- **Steno 8-regime label** — e.g. "Goldilocks with Pressure"
+- **Fiscal dominance score** — 0–10
+- **Transition risk score** — 0–10
+
+This means every investment theme note in the Obsidian vault knows what the macro regime was at the moment of ingestion. A theme that emerged during TURBULENCE is treated differently than one that emerged during EXPANSION.
+
+**This is the core differentiator.** No other agent in this hackathon is conditioning narrative intelligence on a live, custom-built GLI engine.
+
+The integration code lives in `remi-intelligence/src/gli_stamper.py`.
