@@ -1,0 +1,17 @@
+{
+  "name": "Remi",
+  "version": "1.0.0",
+  "description": "Sovereign AI agent for pulmonary critical care medicine and macro finance intelligence",
+  "operator_wallet": "0x316252829cd5fDFd2aB4e17E669C8CE8a42794F6",
+  "erc8004_identity": "34134",
+  "erc8004_tx": "0x0d6ab70d99096b1dfecad8a64407da9dbe8142eadeb0cf9b55aae33f5d0374b1",
+  "harness": "hermes-agent",
+  "model": "claude-haiku-4-5-20251001",
+  "supported_tools": ["obsidian", "telegram", "rss", "sqlite", "aestima-gli"],
+  "task_categories": ["clinical_knowledge_retrieval", "macro_intelligence", "signal_classification", "second_order_inference"],
+  "compute_constraints": {
+    "max_tokens_per_query": 4096,
+    "model_default": "claude-haiku-4-5-20251001",
+    "model_inference": "claude-sonnet-4-6"
+  }
+}
