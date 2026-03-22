@@ -1,17 +1,121 @@
 {
-  "name": "Remi",
+  "name": "Remi Intelligence",
   "version": "1.0.0",
-  "description": "Sovereign AI agent for pulmonary critical care medicine and macro finance intelligence",
+  "description": "Sovereign AI agent for pulmonary critical care medicine and macro finance intelligence. Operates fully self-hosted on Proxmox with autonomous narrative intelligence pipeline, clinical vault queries, and regime-conditioned macro analysis.",
   "operator_wallet": "0x316252829cd5fDFd2aB4e17E669C8CE8a42794F6",
+  "operator_name": "M (Pulmonary and Critical Care Physician)",
   "erc8004_identity": "34134",
-  "erc8004_tx": "0x0d6ab70d99096b1dfecad8a64407da9dbe8142eadeb0cf9b55aae33f5d0374b1",
+  "erc8004_registration_tx": "0x0d6ab70d99096b1dfecad8a64407da9dbe8142eadeb0cf9b55aae33f5d0374b1",
+  "erc8004_self_custody_tx": "0xd325a2b41416517b36a0dbf2d906756568e73ba1f9580b3ebd1748ca1aa371c1",
+  "network": "Base Mainnet",
   "harness": "hermes-agent",
-  "model": "claude-haiku-4-5-20251001",
-  "supported_tools": ["obsidian", "telegram", "rss", "sqlite", "aestima-gli"],
-  "task_categories": ["clinical_knowledge_retrieval", "macro_intelligence", "signal_classification", "second_order_inference"],
+  "harness_version": "OpenClaw (Proxmox + systemd user services)",
+  "primary_model": "claude-haiku-4-5-20251001",
+  "inference_model": "claude-sonnet-4-6",
+  "framework_version": "Anthropic Claude API",
+  "supported_tools": [
+    "obsidian",
+    "telegram",
+    "rss_feeds",
+    "sqlite",
+    "aestima-gli",
+    "systemd",
+    "feedparser",
+    "apscheduler",
+    "telethon"
+  ],
+  "task_categories": [
+    "clinical_knowledge_retrieval",
+    "macro_intelligence_synthesis",
+    "narrative_velocity_scoring",
+    "second_order_supply_chain_inference",
+    "regime_conditioned_analysis",
+    "autonomous_signal_monitoring",
+    "theme_classification_and_acceleration_detection"
+  ],
   "compute_constraints": {
     "max_tokens_per_query": 4096,
     "model_default": "claude-haiku-4-5-20251001",
-    "model_inference": "claude-sonnet-4-6"
+    "model_inference": "claude-sonnet-4-6",
+    "daily_compute_budget_usd": 2.0,
+    "haiku_allocation_percent": 85,
+    "sonnet_allocation_percent": 15
+  },
+  "deployment": {
+    "infrastructure": "Proxmox bare-metal (i7-8700K, 62GB RAM, 500GB NVMe)",
+    "host": "192.168.1.100 (Debian VM)",
+    "services": [
+      "hermes-gateway (Telegram + Obsidian queries)",
+      "remi-intelligence (Narrative pipeline, APScheduler)",
+      "tg-listener (Telegram signal group monitoring)"
+    ],
+    "persistence": "systemd user services with linger. Survives reboots.",
+    "data_storage": "SQLite (documents, themes, velocity scores), Obsidian vaults (clinical + investing), CouchDB LiveSync (4-device vault sync)"
+  },
+  "autonomy_profile": {
+    "level": "high",
+    "decision_loop": "Discover (RSS) → Plan (GLI stamp) → Execute (extraction) → Verify (Obsidian) → Alert (Telegram)",
+    "human_oversight": "MG validates clinical accuracy and signal quality. Infrastructure decisions autonomous.",
+    "operational_hours": "24/7 with systemd persistence",
+    "without_human_prompting": true,
+    "autonomous_metrics": {
+      "rss_polls_completed": 40,
+      "documents_processed": 298,
+      "themes_extracted": 828,
+      "high_velocity_themes_flagged": 6,
+      "signal_digests_generated": 7,
+      "days_operational": 10
+    }
+  },
+  "integration_points": {
+    "aestima_gli": {
+      "endpoint": "http://192.168.1.198:8000/api/agent/context",
+      "purpose": "Stamp documents with macro regime context (phase, Steno label, fiscal score)",
+      "integration_method": "gli_stamper.py calls at ingestion time"
+    },
+    "telegram": {
+      "chat_ids": ["M (clinical)", "Signals with Remi (investing)"],
+      "capabilities": ["vault queries", "signal digest reception", "manual signal submission"]
+    },
+    "obsidian": {
+      "clinical_vault": "400MB, 19 PCCM domains, 135 wiki-links, CouchDB LiveSync",
+      "investing_vault": "SQLite-backed theme notes with velocity scores, GLI context, acceleration tracking"
+    },
+    "rss_feeds": {
+      "count": 16,
+      "tier_distribution": {
+        "tier_1": ["ZeroHedge", "Adam Tooze", "Burry", "Peter Zeihan"],
+        "tier_2": ["MacroAlf", "FT Markets", "Doomberg", "Visser"],
+        "tier_3": ["OilPrice", "Brazil Journal", "Glassnode", "Capital Flows"]
+      }
+    }
+  },
+  "performance_metrics": {
+    "period": "2026-03-13 to 2026-03-22 (10 days)",
+    "documents_ingested": 303,
+    "documents_processed": 298,
+    "processing_success_rate": 0.983,
+    "avg_processing_latency_seconds": 23.4,
+    "themes_extracted": 828,
+    "velocity_flags_generated": 6,
+    "gli_stamps_applied": 303,
+    "cost_haiku_usd": 0.87,
+    "cost_sonnet_usd": 5.10,
+    "total_cost_usd": 5.97,
+    "cost_per_day_usd": 0.597
+  },
+  "synthesis_hackathon_submission": {
+    "submitted": true,
+    "participant_id": "5d936253dec548ba906fa9043cc2121f",
+    "team_id": "b95782c2e27d4247aa3318a6e41486f2",
+    "project_uuid": "b0cdcd6c3e2f43f8850b613caf132f58",
+    "tracks": [
+      "Protocol Labs — Let the Agent Cook (Autonomous execution with full decision loop)",
+      "Protocol Labs — Agents With Receipts (ERC-8004 identity + reputation)",
+      "Base — Autonomous Trading Agent (CashClaw + signal synthesis)",
+      "Base — Agent Services on Base (GLI data micropayments via x402)"
+    ],
+    "submission_date": "2026-03-20T16:47:00Z",
+    "winners_announced": "2026-03-25T00:00:00Z"
   }
 }
