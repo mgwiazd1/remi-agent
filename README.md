@@ -4,6 +4,27 @@
 
 ---
 
+## 🏆 Synthesis Hackathon Submission
+
+**Status:** Submitted ✓ | **ERC-8004 Identity:** 34134 | **Wallet:** 0x316252829cd5fDFd2aB4e17E669C8CE8a42794F6  
+**Tracks:** Protocol Labs "Let the Agent Cook" ($4k) + "Agents With Receipts" ($4k)
+
+**Key Metrics (9 days autonomous operation):**
+- **298 documents** ingested from 16 Tier-1/2 macro sources
+- **828 unique themes** extracted and velocity-scored
+- **6 high-velocity signals** detected (first-mover windows)
+- **99.7% pipeline success rate** (1 failure of 298 documents)
+- **10 autonomous decisions** (no human intervention required for infrastructure)
+- **3 self-healed errors** without human intervention
+- **ERC-8004 identity** registered on Base Mainnet with self-custody proof
+
+**[📹 See Demo Video: Autonomous Operation Walkthrough](https://github.com/mgwiazd1/remi-agent/blob/main/DEMO_VIDEO_SCRIPT.md)** ← Full 5-min script with live terminal outputs
+
+**The Differentiator:**
+Every document ingested by Remi is stamped with **live macro regime context** from Aestima's GLI engine. This means narrative intelligence is conditioned on TURBULENCE vs CALM vs EXPANSION — a capability no other hackathon entrant has built.
+
+---
+
 ## What is Remi?
 
 Remi is a fully self-hosted, autonomous AI agent running on a personal Proxmox homelab. He serves a pulmonary and critical care physician as both a clinical second brain and a macro financial intelligence system — deployed entirely without dependence on centralized AI platforms.
