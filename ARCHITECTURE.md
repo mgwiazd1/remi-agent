@@ -2,7 +2,7 @@
 
 ## Infrastructure
 - Proxmox bare-metal host (i7-8700K, 62GB RAM)
-- Deb-Docs-Media VM (192.168.1.100, Debian)
+- Debian VM (private network)
 - 6TB NAS mirrored storage
 
 ## Core Components
