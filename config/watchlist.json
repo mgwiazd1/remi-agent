@@ -1,0 +1,138 @@
+{
+  "_meta": {
+    "description": "Active ticker watchlist \u2014 tickers with deep intelligence coverage",
+    "managed_by": "/watch commands via Telegram",
+    "last_updated": "2026-04-16"
+  },
+  "tickers": {
+    "PROP": {
+      "company": "Prairie Operating Co.",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "thesis_summary": "Distressed DJ Basin E&P trading at 15% of NAV ($2.22 vs $6.80 NAV at $65 oil). Peers trade at parity or premium. Survival bet \u2014 SPA financing amendment closed April 7, production scaling toward 28K Boe/d, 3000% revenue growth in 2025. If survives, discount collapses. At $90 oil NAV ~$15, at $100 oil NAV ~$30.",
+      "conviction": "speculative",
+      "sizing": "lotto 1-3%",
+      "target_return": "7X",
+      "horizon_years": 2,
+      "key_risks": [
+        "Bankruptcy = -100%",
+        "Colorado regulatory risk (DJ Basin)",
+        "Dilution from warrant exercises",
+        "Execution risk on production ramp"
+      ],
+      "catalysts": [
+        "SPA financing amendment closed April 7 2026",
+        "Production ramp to 28K Boe/d",
+        "Oil price spike (Hormuz scenario)",
+        "NAV discount narrows as survival probability rises"
+      ],
+      "source_attribution": "Josh Young (Bison Insights)",
+      "added_by": "MG",
+      "added_date": "2026-04-08",
+      "last_eval_date": null,
+      "last_eval_gli_phase": null,
+      "tags": [
+        "distressed",
+        "energy",
+        "small-cap",
+        "asymmetric",
+        "e&p",
+        "lotto"
+      ]
+    },
+    "NTR": {
+      "company": "Nutrien Ltd.",
+      "sector": "Materials",
+      "industry": "Fertilizers & Agricultural Chemicals",
+      "thesis_summary": "Largest potash producer with global nitrogen/phosphate exposure. Fertilizer prices surging (urea +34% MoM, +48% YoY) while NTR lags the commodity move. CF Industries pulling exports to keep nitrogen domestic tightens global supply further \u2014 NTR captures full export pricing. EW wave 3 starting off .236 fib retracement ($43 low to $85 high). Starter position at $73, scale on weekly close above $78-80.",
+      "conviction": "medium-high",
+      "sizing": "starter 2-3%, scale to 5%",
+      "target_return": "40-50% (wave 3 target ~$105+)",
+      "horizon_years": 1,
+      "key_risks": [
+        "Fertilizer price spike proves transient (Hormuz resolution)",
+        "Global demand destruction at elevated nitrogen prices",
+        "CF export ban lifts, supply floods back",
+        "Wave 3 fails, double top at $85"
+      ],
+      "catalysts": [
+        "Continued fertilizer price escalation (urena, potash, DAP)",
+        "Q1/Q2 earnings reflecting spot pricing",
+        "CF export restriction persisting through planting season",
+        "Weekly close above $78 confirming wave 3 break"
+      ],
+      "source_attribution": "Tracy Alloway/CF export story, ZeroHedge fertilizer report, MG EW/fib analysis",
+      "added_by": "MG",
+      "added_date": "2026-04-15",
+      "last_eval_date": null,
+      "last_eval_gli_phase": null,
+      "tags": [
+        "fertilizer",
+        "materials",
+        "ew-wave-3",
+        "fib-236",
+        "commodity-lag",
+        "income-3pct-yield"
+      ]
+    },
+    "ATH.TO": {
+      "company": "Athabasca Oil Corporation",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "thesis_summary": "Canadian oil sands/duvernay E&P with 38K boe/d production, scaling to 63K by 2030 (+66%). Growth is infrastructure-driven, not price-dependent. Free cash flow compounding at any WTI. Referenced by @joeblough1970/@RazorOil.",
+      "conviction": "unrated",
+      "sizing": "TBD pending deep dive",
+      "target_return": "TBD",
+      "horizon_years": 3,
+      "key_risks": [
+        "Oil price collapse below $50 WTI",
+        "Canadian regulatory/pipeline constraints",
+        "Heavy oil discount widening (WCS differential)",
+        "Execution risk on 66% production ramp"
+      ],
+      "catalysts": [
+        "Production milestones: 43K EOY26, 55K EOY27",
+        "Oil price tailwind (GLI commodity thesis)",
+        "Pipeline capacity additions (TMX expansion benefits)",
+        "Free cash flow inflection as production scales"
+      ],
+      "source_attribution": "@joeblough1970 (X), @RazorOil",
+      "added_by": "Remi",
+      "added_date": "2026-04-22",
+      "last_eval_date": null,
+      "last_eval_gli_phase": null,
+      "tags": [
+        "energy",
+        "oil-sands",
+        "canadian-e&p",
+        "production-growth",
+        "cash-flow"
+      ]
+    },
+    "NVO": {
+      "company": "Novo Nordisk",
+      "sector": "Healthcare",
+      "industry": "Pharmaceuticals (GLP-1)",
+      "thesis_summary": "Incumbent GLP-1 maker disrupted by compounding/DTC (HIMS). Revenue growth -7.6%, PEG 4.27. Testing 200-month MA at $40. Weekly DeMark Red 5 \u2014 no timing signal until ~July. Watch for count 11-12 + fundamental inflection before entry.",
+      "conviction": "watchlist",
+      "sizing": "TBD \u2014 await DeMark 13 + earnings inflection",
+      "target_return": "TBD",
+      "horizon_years": 2,
+      "key_risks": [
+        "GLP-1 pricing erosion from compounding pharmacies",
+        "HIMS/DTC disruption accelerating",
+        "Revenue decline deepening",
+        "200-month MA failure = next leg down"
+      ],
+      "catalysts": [
+        "Weekly DeMark 13 buy setup",
+        "200-month MA hold + reversal candle",
+        "Earnings inflection / pricing stabilization",
+        "Next-gen GLP-1 pipeline approvals"
+      ],
+      "added_by": "MG",
+      "added_date": "2026-04-25",
+      "pair_note": "HIMS already held \u2014 NVO would pair disruptor WITH incumbent (hedge dynamic)"
+    }
+  }
+}

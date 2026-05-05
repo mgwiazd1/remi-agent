@@ -1,0 +1,718 @@
+{
+  "accounts": [
+    {
+      "handle": "crossbordercap",
+      "name": "Michael Howell / CrossBorder Capital",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "macro_liquidity",
+        "gli_methodology"
+      ],
+      "weight": 1.0,
+      "note": "OG GLI source \u2014 Howell real-time liquidity commentary"
+    },
+    {
+      "handle": "Globalflows",
+      "name": "Global Flows",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "macro_liquidity",
+        "global_flows"
+      ],
+      "weight": 0.95,
+      "note": "Daily macro map of rates/FX/equities"
+    },
+    {
+      "handle": "steno_research",
+      "name": "Andreas Steno Larsen",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "regime_matrix",
+        "macro_liquidity"
+      ],
+      "weight": 0.95,
+      "note": "Steno Research \u2014 regime matrix pioneer"
+    },
+    {
+      "handle": "erhardtlars",
+      "name": "Lars Erhardt",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "regime_matrix",
+        "central_bank"
+      ],
+      "weight": 0.9,
+      "note": "Steno Research co-founder \u2014 central bank analysis"
+    },
+    {
+      "handle": "LynAldenContact",
+      "name": "Lyn Alden",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "macro_liquidity",
+        "fiscal_dominance"
+      ],
+      "weight": 1.0,
+      "note": "Fiscal dominance + dollar debasement thesis"
+    },
+    {
+      "handle": "biancoresearch",
+      "name": "Jim Bianco",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "rates",
+        "credit",
+        "macro_liquidity"
+      ],
+      "weight": 0.9,
+      "note": "Macro investment research \u2014 ETF/rates specialist"
+    },
+    {
+      "handle": "RaoulGMI",
+      "name": "Raoul Pal",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "macro_liquidity",
+        "crypto"
+      ],
+      "weight": 0.95,
+      "note": "RealVision founder \u2014 macro/Web3 nexus"
+    },
+    {
+      "handle": "michaelxpettis",
+      "name": "Michael Pettis",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "china_macro",
+        "trade_imbalances"
+      ],
+      "weight": 0.9,
+      "note": "Peking University \u2014 China macro, trade imbalances"
+    },
+    {
+      "handle": "HelimaCroft",
+      "name": "Helima Croft",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "energy",
+        "opec",
+        "geopolitical"
+      ],
+      "weight": 0.95,
+      "note": "RBC Capital Markets \u2014 OPEC, energy geopolitics"
+    },
+    {
+      "handle": "JavierBlas",
+      "name": "Javier Blas",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "energy",
+        "commodities",
+        "supply_chain"
+      ],
+      "weight": 0.95,
+      "note": "Bloomberg energy chief \u2014 OPEC, Iran, oil supply alpha"
+    },
+    {
+      "handle": "ianbremmer",
+      "name": "Ian Bremmer",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "geopolitical"
+      ],
+      "weight": 0.9,
+      "note": "Eurasia Group founder \u2014 geopolitical risk"
+    },
+    {
+      "handle": "adam_tooze",
+      "name": "Adam Tooze",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "fiscal_dominance",
+        "geopolitical",
+        "china_macro"
+      ],
+      "weight": 0.9,
+      "note": "Columbia historian \u2014 macro history, crisis analysis"
+    },
+    {
+      "handle": "ramahluwalia",
+      "name": "Ram Ahluwalia",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "macro_liquidity",
+        "credit"
+      ],
+      "weight": 0.9,
+      "note": "Lumida Wealth \u2014 crypto-macro synthesis"
+    },
+    {
+      "handle": "CalebFranzen",
+      "name": "Caleb Franzen",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "quant",
+        "data",
+        "flow"
+      ],
+      "weight": 0.85,
+      "note": "Quantitative macro analysis"
+    },
+    {
+      "handle": "calvinfroedge",
+      "name": "Calvin Froedge",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "quant",
+        "data"
+      ],
+      "weight": 0.85,
+      "note": "Global macro data analysis"
+    },
+    {
+      "handle": "charliebilello",
+      "name": "Charlie Bilello",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "data",
+        "historical_context"
+      ],
+      "weight": 0.85,
+      "note": "Compound Capital \u2014 market data, historical context"
+    },
+    {
+      "handle": "TaviCosta",
+      "name": "Otavio (Tavi) Costa",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "commodities",
+        "macro_liquidity",
+        "brazil_macro"
+      ],
+      "weight": 0.95,
+      "note": "Crescat Capital \u2014 commodities, value, Brazil macro. Core follow."
+    },
+    {
+      "handle": "Ole_S_Hansen",
+      "name": "Ole S Hansen",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "energy",
+        "commodities",
+        "macro_liquidity"
+      ],
+      "weight": 0.9,
+      "note": "Saxo Bank Head of Commodity Strategy \u2014 OPEC, energy positioning, commodity macro"
+    },
+    {
+      "handle": "SStapczynski",
+      "name": "Stephen Stapczynski",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "energy",
+        "commodities",
+        "supply_chain"
+      ],
+      "weight": 0.9,
+      "note": "Bloomberg energy reporter in Singapore \u2014 nat gas, LNG, nuclear. Asia-hours coverage fills timezone gap"
+    },
+    {
+      "handle": "conksresearch",
+      "name": "Conks",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "repo_liquidity",
+        "credit",
+        "central_bank",
+        "macro_liquidity"
+      ],
+      "weight": 0.9,
+      "note": "STIR, funding markets, monetary plumbing \u2014 flags repo/fed funds anomalies early"
+    },
+    {
+      "handle": "Jamie1Coutts",
+      "name": "Jamie Coutts",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "crypto",
+        "macro_liquidity"
+      ],
+      "weight": 0.8,
+      "note": "RealVision \u2014 crypto liquidity flows"
+    },
+    {
+      "handle": "RookieXBT",
+      "name": "RookieXBT",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "crypto"
+      ],
+      "weight": 0.75,
+      "note": "Crypto on-chain analysis"
+    },
+    {
+      "handle": "KatusaResearch",
+      "name": "Katusa Research",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "commodities",
+        "critical_minerals"
+      ],
+      "weight": 0.8,
+      "note": "Critical minerals/energy"
+    },
+    {
+      "handle": "TheNickelGoblin",
+      "name": "Nickel Goblin",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "commodities"
+      ],
+      "weight": 0.75,
+      "note": "Nickel and battery metals analysis"
+    },
+    {
+      "handle": "MelMattison1",
+      "name": "Mel Mattison",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "commodities",
+        "energy"
+      ],
+      "weight": 0.75,
+      "note": "Commodities and energy markets"
+    },
+    {
+      "handle": "balajis",
+      "name": "Balaji Srinivasan",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "tech_macro",
+        "crypto",
+        "geopolitical"
+      ],
+      "weight": 0.8,
+      "note": "Tech macro, crypto, network states"
+    },
+    {
+      "handle": "PeterZeihan",
+      "name": "Peter Zeihan",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "geopolitical",
+        "supply_chain",
+        "demographics"
+      ],
+      "weight": 0.8,
+      "note": "Geopolitical strategist \u2014 demographics, deglobalization"
+    },
+    {
+      "handle": "nic_carter",
+      "name": "Nic Carter",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "crypto",
+        "macro_liquidity"
+      ],
+      "weight": 0.75,
+      "note": "Castle Island Ventures \u2014 BTC/crypto-macro. murmurationstwo.substack.com"
+    },
+    {
+      "handle": "TheMichaelEvery",
+      "name": "Michael Every",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "geopolitical",
+        "macro_liquidity",
+        "trade_imbalances"
+      ],
+      "weight": 0.8,
+      "note": "Rabobank global strategist \u2014 contrarian, early on trade war escalation and EM stress"
+    },
+    {
+      "handle": "ValueSeeker_",
+      "name": "Value Seeker",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "commodities",
+        "currencies",
+        "statistical_indicators"
+      ],
+      "weight": 0.7,
+      "note": "Commodities, stocks, currencies with statistical analysis"
+    },
+    {
+      "handle": "elerianm",
+      "name": "Mohamed El-Erian",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "central_bank_policy",
+        "macro_regime",
+        "credit_stress",
+        "em_macro"
+      ],
+      "weight": 0.95,
+      "note": "Allianz chief economic adviser \u2014 Fed policy, EM macro"
+    },
+    {
+      "handle": "RayDalio",
+      "name": "Ray Dalio",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "macro_liquidity",
+        "debt_cycles",
+        "geopolitical",
+        "china_macro"
+      ],
+      "weight": 0.9,
+      "note": "Bridgewater \u2014 debt cycle framework"
+    },
+    {
+      "handle": "NickTimiraos",
+      "name": "Nick Timiraos",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "fed_policy",
+        "rates",
+        "macro_liquidity"
+      ],
+      "weight": 0.9,
+      "note": "WSJ Fed correspondent \u2014 rate decisions first"
+    },
+    {
+      "handle": "CryptoHayes",
+      "name": "Arthur Hayes",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "crypto",
+        "macro_liquidity",
+        "bitcoin",
+        "fiscal_dominance"
+      ],
+      "weight": 0.95,
+      "note": "BitMEX founder / Maelstrom \u2014 best crypto-macro synthesis"
+    },
+    {
+      "handle": "VincentDeluard",
+      "name": "Vincent Deluard",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "macro_liquidity",
+        "rates",
+        "fx",
+        "equities"
+      ],
+      "weight": 0.9,
+      "note": "Director global macro StoneX"
+    },
+    {
+      "handle": "BittelJulien",
+      "name": "Julien Bittel",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "macro_liquidity",
+        "gli_adjacent",
+        "regime_matrix"
+      ],
+      "weight": 0.9,
+      "note": "Head of Macro Research Global Macro Investor"
+    },
+    {
+      "handle": "ki_young_ju",
+      "name": "Ki Young Ju (CryptoQuant)",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "onchain_data",
+        "bitcoin",
+        "whale_movements",
+        "crypto"
+      ],
+      "weight": 0.9,
+      "note": "CryptoQuant CEO \u2014 onchain BTC data, exchange flows"
+    },
+    {
+      "handle": "WClementeIII",
+      "name": "Will Clemente",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "onchain_data",
+        "bitcoin",
+        "crypto"
+      ],
+      "weight": 0.85,
+      "note": "Onchain analyst \u2014 BTC accumulation signals"
+    },
+    {
+      "handle": "SuiNetwork",
+      "name": "Sui Network",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "sui",
+        "onchain_data",
+        "crypto"
+      ],
+      "weight": 0.85,
+      "note": "Pablo priority \u2014 SUI ecosystem official"
+    },
+    {
+      "handle": "petrobras",
+      "name": "Petrobras",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "brazil_macro",
+        "petrobras",
+        "energy",
+        "em_macro"
+      ],
+      "weight": 0.8,
+      "note": "Pablo priority \u2014 production/dividend announcements"
+    },
+    {
+      "handle": "Rory_Johnston",
+      "name": "Rory Johnston",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": [
+        "energy",
+        "commodities",
+        "opec"
+      ],
+      "weight": 0.95,
+      "note": "Commodity Context founder \u2014 best oil data analyst on X. Already in RSS."
+    },
+    {
+      "handle": "MichaelPBento",
+      "name": "Michael Bento",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "macro_liquidity",
+        "equities",
+        "credit"
+      ],
+      "weight": 0.7,
+      "note": "Valois Capital Management \u2014 fund manager perspective"
+    },
+    {
+      "handle": "ed_fin",
+      "name": "Ed Finance",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": [
+        "macro_liquidity",
+        "rates",
+        "credit"
+      ],
+      "weight": 0.8,
+      "note": "Macro finance commentary \u2014 rates, credit, regime analysis"
+    },
+    {
+      "handle": "KobeissiLetter",
+      "name": "The Kobeissi Letter",
+      "tier": 3,
+      "signal_type": "velocity",
+      "clusters": [
+        "macro_liquidity",
+        "equities",
+        "global_capital_markets"
+      ],
+      "weight": 0.5,
+      "note": "Fast headline synthesis \u2014 velocity signal"
+    },
+    {
+      "handle": "1MarkMoss",
+      "name": "Mark Moss",
+      "tier": 3,
+      "signal_type": "velocity",
+      "clusters": [
+        "crypto",
+        "macro_velocity"
+      ],
+      "weight": 0.5,
+      "note": "BTC strategist, 100M+ reach \u2014 signals when BTC macro thesis goes mainstream"
+    },
+    {
+      "handle": "themarketradar",
+      "name": "Market Radar",
+      "tier": 3,
+      "signal_type": "velocity",
+      "clusters": [
+        "quant",
+        "institutional_data",
+        "macro_velocity"
+      ],
+      "weight": 0.5,
+      "note": "Institutional data + quant models \u2014 algo/flow signal"
+    },
+    {
+      "handle": "jbulltard1",
+      "name": "jbulltard",
+      "tier": 3,
+      "signal_type": "velocity",
+      "clusters": [
+        "options",
+        "volatility",
+        "equities"
+      ],
+      "weight": 0.5,
+      "note": "Options/VIXQ modeling"
+    },
+    {
+      "handle": "zerohedge",
+      "name": "Zero Hedge",
+      "tier": null,
+      "signal_type": "contrarian_amplifier",
+      "clusters": [
+        "macro_liquidity",
+        "geopolitical",
+        "contrarian"
+      ],
+      "weight": 0.6,
+      "note": "Keyword filter REQUIRED \u2014 high volume, contrarian amplifier"
+    },
+    {
+      "handle": "DeItaone",
+      "name": "Walter Bloomberg",
+      "tier": 4,
+      "signal_type": "lag_indicator",
+      "clusters": [
+        "news_wire"
+      ],
+      "weight": 0.2,
+      "note": "If Walter is posting it, it is already priced — lag indicator"
+    },
+    {
+      "handle": "FedGuy12",
+      "name": "Joseph Wang (FedGuy)",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": ["fed", "rates", "liquidity_plumbing", "qt"],
+      "weight": 1.0,
+      "note": "Ex-Fed OMTD trader — RRP, reserves, QT mechanics, SOFR. Directly feeds GLI methodology. RSS also added."
+    },
+    {
+      "handle": "dylan522p",
+      "name": "Dylan Patel (SemiAnalysis)",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": ["ai", "semiconductors", "data_centers", "compute"],
+      "weight": 0.9,
+      "note": "SemiAnalysis — best semiconductor/AI infra analysis. NVIDIA, TSMC, data center buildout. RSS also added."
+    },
+    {
+      "handle": "Tracy_Alloway",
+      "name": "Tracy Alloway",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": ["credit", "macro_liquidity", "rates"],
+      "weight": 0.85,
+      "note": "Bloomberg Odd Lots co-host — credit/macro intersection, repo, shadow banking."
+    },
+    {
+      "handle": "Brad_Setser",
+      "name": "Brad Setser",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": ["fx", "capital_flows", "trade_imbalances", "china_macro"],
+      "weight": 1.0,
+      "note": "Ex-Treasury, CFR senior fellow — cross-border capital flows, reserve management, trade surplus dynamics. No RSS feed found — X only."
+    },
+    {
+      "handle": "Josh_Young_1",
+      "name": "Josh Young (Bison Interests)",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": ["equities", "energy", "small_cap"],
+      "weight": 0.8,
+      "note": "E&P, energy equities, activist positions. PROP thesis source. RSS also added via bisoninterests.substack.com."
+    },
+    {
+      "handle": "adventures_fiat",
+      "name": "Adventures in Fiat",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": ["fx", "dollar", "macro_liquidity"],
+      "weight": 0.8,
+      "note": "FX/macro analysis — dollar dynamics, currency regimes, CB interventions."
+    },
+    {
+      "handle": "chipmakernews",
+      "name": "Chipmaker News",
+      "tier": 3,
+      "signal_type": "velocity",
+      "clusters": ["ai", "semiconductors"],
+      "weight": 0.5,
+      "note": "Semiconductor news aggregator — velocity signal for chip/AI cycle."
+    },
+    {
+      "handle": "CreditMacro",
+      "name": "Credit Macro",
+      "tier": 2,
+      "signal_type": "primary",
+      "clusters": ["credit", "rates", "macro_liquidity"],
+      "weight": 0.8,
+      "note": "Credit markets, rates, macro liquidity analysis."
+    },
+    {
+      "handle": "Kacper_PK_CH",
+      "name": "Kacper Kaminski",
+      "tier": 1,
+      "signal_type": "primary",
+      "clusters": ["commodities", "energy", "metals", "agriculture", "supply_chain"],
+      "weight": 0.95,
+      "note": "Nickel/battery metals specialist, Cerlogic Markets. Deep ticker-level analysis on commodity supply chains. Cross-ref fertilizer crisis signal. No RSS found — X only."
+    }
+  ],
+  "version": "2.1",
+  "last_updated": "2026-04-20",
+  "pablo_priority_clusters": [
+    "energy",
+    "central_bank_policy",
+    "credit_stress",
+    "brazil_macro",
+    "macro_regime",
+    "onchain_data",
+    "sui"
+  ],
+  "notes": "Tier 1 = core signal always ingest (21 accounts). Tier 2 = supporting ingest on schedule (21 accounts). Tier 3 = velocity signal only (4 accounts). Tier 4/null = special handling. MacroAlf removed from X monitoring \u2014 use RSS only (prometheusresearch.substack.com/feed). Kaminski added 2026-04-20 \u2014 nickel/battery metals specialist, Tier 1."
+}

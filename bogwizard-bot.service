@@ -1,0 +1,17 @@
+[Unit]
+Description=BogWizard Bot Listener (python-telegram-bot)
+After=network.target
+
+[Service]
+Type=simple
+User=proxmox
+WorkingDirectory=/home/proxmox/remi-intelligence
+EnvironmentFile=/home/proxmox/remi-intelligence/.env
+ExecStart=/home/proxmox/remi-intelligence/.venv/bin/python3 src/bogwizard_bot_listener.py
+Restart=on-failure
+RestartSec=5
+StandardOutput=append:/home/proxmox/remi-intelligence/logs/bogwizard.log
+StandardError=append:/home/proxmox/remi-intelligence/logs/bogwizard.log
+
+[Install]
+WantedBy=multi-user.target

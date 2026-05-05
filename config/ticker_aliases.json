@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "description": "Ticker aliases — map variants to canonical symbol. Applied during knowledge harvest.",
+    "updated": "2026-04-12"
+  },
+  "aliases": {
+    "CL=F": "CL",
+    "CL1!": "CL",
+    "/CL": "CL",
+    "CRUDE": "CL",
+    "WTI": "CL",
+    "BTC-USD": "BTC",
+    "BTCUSD": "BTC",
+    "BTC/USD": "BTC",
+    "XBTUSD": "BTC",
+    "ETH-USD": "ETH",
+    "ETHUSD": "ETH",
+    "GC=F": "GC",
+    "GC1!": "GC",
+    "/GC": "GC",
+    "GOLD": "GC",
+    "SI=F": "SI",
+    "/SI": "SI",
+    "SILVER": "SI",
+    "NG=F": "NG",
+    "/NG": "NG",
+    "NATGAS": "NG",
+    "ES=F": "SPX",
+    "/ES": "SPX",
+    "SPY": "SPX",
+    "NQ=F": "NDX",
+    "/NQ": "NDX",
+    "QQQ": "NDX"
+  }
+}

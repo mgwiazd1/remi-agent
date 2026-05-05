@@ -1,0 +1,639 @@
+{
+  "feeds": [
+    {
+      "name": "Steno Research",
+      "url": "https://steno.substack.com/feed",
+      "tier": 1,
+      "clusters": [
+        "macro_liquidity",
+        "regime_matrix"
+      ],
+      "weight": 1.0
+    },
+    {
+      "name": "Lyn Alden",
+      "url": "https://www.lynalden.com/feed/",
+      "tier": 1,
+      "clusters": [
+        "macro_liquidity",
+        "fiscal_dominance",
+        "commodities"
+      ],
+      "weight": 1.0
+    },
+    {
+      "name": "Crossborder Capital",
+      "url": "https://crossbordercapital.com/feed/",
+      "tier": 1,
+      "clusters": [
+        "macro_liquidity",
+        "gli_methodology"
+      ],
+      "weight": 1.0,
+      "note": "Michael Howell GLI methodology \u2014 paywalled, Pablo PDF drops are primary source"
+    },
+    {
+      "name": "MacroAlf",
+      "url": "https://prometheusresearch.substack.com/feed",
+      "tier": 1,
+      "clusters": [
+        "macro_liquidity",
+        "credit_impulse"
+      ],
+      "weight": 0.9
+    },
+    {
+      "name": "Katusa Research",
+      "url": "https://katusaresearch.com/feed/",
+      "tier": 2,
+      "clusters": [
+        "commodities",
+        "critical_minerals",
+        "energy"
+      ],
+      "weight": 0.8
+    },
+    {
+      "name": "Bianco Research",
+      "url": "https://biancoresearch.com/feed/",
+      "tier": 2,
+      "clusters": [
+        "macro_liquidity",
+        "rates",
+        "credit"
+      ],
+      "weight": 0.8,
+      "note": "biancoresearch.com \u2014 paywalled, no free RSS. Monitor via X scout @biancoresearch."
+    },
+    {
+      "name": "Adam Tooze Chartbook",
+      "url": "https://adamtooze.substack.com/feed",
+      "tier": 2,
+      "clusters": [
+        "geopolitical",
+        "fiscal_dominance",
+        "china_macro"
+      ],
+      "weight": 0.8
+    },
+    {
+      "name": "ZeroHedge",
+      "url": "https://feeds.feedburner.com/zerohedge/feed",
+      "tier": null,
+      "signal_type": "contrarian_amplifier",
+      "clusters": [
+        "geopolitical",
+        "energy",
+        "credit"
+      ],
+      "weight": 0.6,
+      "filter_keywords": [
+        "PBOC",
+        "repo",
+        "oil",
+        "fertilizer",
+        "sanctions",
+        "sovereign",
+        "liquidity"
+      ]
+    },
+    {
+      "name": "Jordi Visser",
+      "url": "https://visserlabs.substack.com/feed",
+      "tier": 2,
+      "clusters": [
+        "macro_liquidity",
+        "crypto",
+        "tech_macro",
+        "ai_economy"
+      ],
+      "weight": 0.85,
+      "note": "22V Research \u2014 macro/AI/crypto intersection, GLI-adjacent liquidity thesis, Bitcoin debasement angle"
+    },
+    {
+      "name": "Michael Burry (Cassandra Unchained)",
+      "url": "https://michaeljburry.substack.com/feed",
+      "tier": 1,
+      "clusters": [
+        "equities",
+        "bubbles",
+        "contrarian",
+        "ai_bubble"
+      ],
+      "weight": 0.9,
+      "note": "Paid Substack \u2014 public RSS delivers free posts only. Replace URL with personal subscriber RSS for full content. Bearish AI/bubble thesis, deep fundamental analysis."
+    },
+    {
+      "name": "Capital Flows Research",
+      "url": "https://www.capitalflowsresearch.com/feed",
+      "tier": 1,
+      "clusters": [
+        "macro_liquidity",
+        "rates",
+        "fx",
+        "equities",
+        "capital_flows",
+        "credit_cycle"
+      ],
+      "weight": 0.95,
+      "note": "@Globalflows \u2014 daily macro map of rates/FX/equities, regime-aligned positioning"
+    },
+    {
+      "name": "Luke Gromen (FFTT)",
+      "url": "https://lukegromen.substack.com/feed",
+      "tier": 1,
+      "clusters": [
+        "fiscal_dominance",
+        "dollar",
+        "gold",
+        "bitcoin",
+        "debt_cycles",
+        "macro_liquidity"
+      ],
+      "weight": 1.0,
+      "note": "FFTT paywalled Substack \u2014 free posts only. Add subscriber RSS when available."
+    },
+    {
+      "name": "The DeFi Report",
+      "url": "https://thedefireport.substack.com/feed",
+      "tier": 2,
+      "clusters": [
+        "crypto",
+        "onchain_data",
+        "defi",
+        "macro_liquidity",
+        "fiscal_dominance"
+      ],
+      "weight": 0.85,
+      "note": "Michael Nadeau \u2014 onchain data + macro bridge, moved to thedefireport.io but Substack still active"
+    },
+    {
+      "name": "Grant Williams (TTMYGH)",
+      "url": "https://grantwilliams.substack.com/feed",
+      "tier": 2,
+      "clusters": [
+        "macro_liquidity",
+        "gold",
+        "contrarian",
+        "fiscal_dominance",
+        "geopolitical"
+      ],
+      "weight": 0.85,
+      "note": "Things That Make You Go Hmmm \u2014 macro depth, Vulpes/Greyerz advisor"
+    },
+    {
+      "name": "EndGame Macro",
+      "url": "https://endgamemacro.substack.com/feed",
+      "tier": 2,
+      "clusters": [
+        "macro_liquidity",
+        "systemic_risk",
+        "policy_intel",
+        "fiscal_dominance"
+      ],
+      "weight": 0.85,
+      "note": "Macro strategy + systemic risk + policy intel, AI-assisted analysis"
+    },
+    {
+      "name": "Doomberg",
+      "url": "https://doomberg.substack.com/feed",
+      "tier": 2,
+      "clusters": [
+        "energy",
+        "commodities",
+        "fiscal_dominance",
+        "contrarian"
+      ],
+      "weight": 0.85,
+      "note": "Anonymous energy/commodities analyst \u2014 strong analytical voice, fills energy macro gap"
+    },
+    {
+      "name": "Peter Zeihan",
+      "url": "https://zeihan.com/feed/",
+      "tier": 2,
+      "clusters": [
+        "geopolitical",
+        "supply_chains",
+        "demographics",
+        "deglobalization",
+        "energy"
+      ],
+      "weight": 0.8,
+      "note": "Geopolitical strategist \u2014 deglobalization/supply chain thesis, demographic analysis"
+    },
+    {
+      "name": "Real Vision",
+      "url": "https://www.realvision.com/feed",
+      "tier": 2,
+      "clusters": [
+        "macro_liquidity",
+        "crypto",
+        "equities",
+        "gli_adjacent"
+      ],
+      "weight": 0.8,
+      "note": "Raoul Pal / RealVision \u2014 macro/Web3 nexus, institutional macro content"
+    },
+    {
+      "name": "The Macro Compass (Alf)",
+      "url": "https://themacrocompass.substack.com/feed",
+      "tier": 1,
+      "clusters": [
+        "central_bank_policy",
+        "rates",
+        "macro_liquidity",
+        "credit_impulse"
+      ],
+      "weight": 1.0,
+      "note": "Alfonso Peccatiello \u2014 rates specialist, Fed/BoJ/ECB policy, GLI-aware. MacroAlf new home."
+    },
+    {
+      "name": "Brazil Journal",
+      "url": "https://braziljournal.com/feed/",
+      "tier": 2,
+      "clusters": [
+        "brazil_macro",
+        "petrobras",
+        "brl",
+        "em_macro"
+      ],
+      "weight": 0.85,
+      "note": "Brazil macro \u2014 Petrobras, BRL, fiscal pressure, Lula policy"
+    },
+    {
+      "name": "Glassnode Insights",
+      "url": "https://insights.glassnode.com/rss/",
+      "tier": 2,
+      "clusters": [
+        "onchain_data",
+        "crypto",
+        "bitcoin",
+        "whale_movements"
+      ],
+      "weight": 0.9,
+      "note": "Onchain analytics \u2014 whale accumulation, supply signals, BTC/ETH/altcoin data"
+    },
+    {
+      "name": "OilPrice.com",
+      "url": "https://oilprice.com/rss/main",
+      "tier": 2,
+      "clusters": [
+        "energy",
+        "opec",
+        "oil_supply",
+        "geopolitical"
+      ],
+      "weight": 0.8,
+      "note": "Dedicated energy/oil \u2014 OPEC decisions, Iran/Hormuz, supply shocks"
+    },
+    {
+      "name": "Reuters Markets",
+      "url": "https://feeds.reuters.com/reuters/markets",
+      "tier": 2,
+      "clusters": [
+        "central_bank_policy",
+        "macro_regime",
+        "credit_stress",
+        "geopolitical"
+      ],
+      "weight": 0.75,
+      "note": "Reuters markets feed \u2014 CB statements, credit events, macro"
+    },
+    {
+      "name": "FT Markets",
+      "url": "https://www.ft.com/markets?format=rss",
+      "tier": 2,
+      "clusters": [
+        "central_bank_policy",
+        "credit_stress",
+        "macro_regime",
+        "equities"
+      ],
+      "weight": 0.85,
+      "note": "Financial Times markets \u2014 institutional coverage, credit stress, CB policy"
+    },
+    {
+      "name": "Seeking Alpha Macro",
+      "url": "https://seekingalpha.com/tag/macro-view.xml",
+      "tier": 3,
+      "clusters": [
+        "macro_regime",
+        "equities",
+        "rates"
+      ],
+      "weight": 0.6,
+      "note": "Seeking Alpha macro tag \u2014 broad coverage, filter for signal"
+    },
+    {
+      "name": "CoinDesk",
+      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "tier": 2,
+      "clusters": [
+        "crypto",
+        "onchain_data",
+        "bitcoin",
+        "defi"
+      ],
+      "weight": 0.75,
+      "note": "CoinDesk \u2014 crypto news, onchain events, fills Nansen gap"
+    },
+    {
+      "name": "Rory Johnston \u2014 Commodity Context",
+      "url": "https://commodity.substack.com/feed",
+      "tier": 2,
+      "clusters": [
+        "commodities",
+        "energy",
+        "supply_chain"
+      ],
+      "weight": 0.8,
+      "note": "Commodity deep dives \u2014 supply chain second-order inference source"
+    },
+    {
+      "name": "Compounding Quality",
+      "url": "https://compoundingquality.substack.com/feed",
+      "tier": 2,
+      "clusters": [
+        "equities",
+        "quality_value",
+        "contrarian"
+      ],
+      "weight": 0.75,
+      "note": "Quality/value equity analysis \u2014 contrarian check vs macro-heavy pipeline"
+    },
+    {
+      "name": "Le Shrub",
+      "url": "https://leshrub.substack.com/feed",
+      "tier": 2,
+      "clusters": [
+        "macro_liquidity",
+        "equities",
+        "trading"
+      ],
+      "weight": 0.8,
+      "note": "Macro trading perspective \u2014 Reminiscences of a Shrub Operator"
+    },
+    {
+      "name": "Tavi Costa \u2014 Crescat Capital",
+      "url": "https://tavicosta.substack.com/feed",
+      "tier": 2,
+      "clusters": [
+        "commodities",
+        "precious_metals",
+        "hard_assets"
+      ],
+      "weight": 0.75,
+      "note": "Crescat Capital \u2014 hard assets thesis, complements Katusa from macro-portfolio angle"
+    },
+    {
+      "name": "Josh Young \u2014 Bison Insights",
+      "url": "https://joshyoung.substack.com/feed",
+      "tier": 2,
+      "clusters": [
+        "energy",
+        "oil_gas",
+        "commodities"
+      ],
+      "weight": 0.75,
+      "note": "Energy micro-cap positioning \u2014 boots on the ground complement to OVX signal"
+    },
+    {
+      "name": "Nick Nemeth — Mispriced Assets",
+      "url": "https://mispricedassets.substack.com/feed",
+      "tier": 2,
+      "clusters": [
+        "equities",
+        "crypto",
+        "macro_liquidity"
+      ],
+      "weight": 0.8,
+      "note": "Forensic accounting on PE-owned insurers, private credit systemic risk. Eisman-endorsed. THE HOLE thesis."
+    },
+    {
+      "name": "FedGuy (Joseph Wang)",
+      "url": "https://fedguy.com/feed/",
+      "tier": 1,
+      "sector": "fed",
+      "clusters": ["fed", "rates", "liquidity_plumbing", "qt"],
+      "weight": 1.0,
+      "note": "Ex-Fed OMTD trader. Best source on RRP, reserves, QT mechanics, SOFR. Directly feeds Aestima GLI methodology."
+    },
+    {
+      "name": "Federal Reserve Speeches",
+      "url": "https://www.federalreserve.gov/feeds/speeches.xml",
+      "tier": 1,
+      "sector": "fed",
+      "clusters": ["fed", "monetary_policy"],
+      "weight": 0.9,
+      "note": "Official Fed speeches — primary source, no interpretation layer. Powell, Waller, Bowman signals."
+    },
+    {
+      "name": "FRED Blog",
+      "url": "https://fredblog.stlouisfed.org/feed/",
+      "tier": 2,
+      "sector": "fed",
+      "clusters": ["fed", "macro", "data"],
+      "weight": 0.7,
+      "note": "St. Louis Fed data blog — economic data visualization and commentary. Good for data-driven theme extraction."
+    },
+    {
+      "name": "Apollo Chief Economist (Torsten Slok)",
+      "url": "https://www.apolloacademy.com/feed/",
+      "tier": 1,
+      "sector": "credit",
+      "clusters": ["credit", "private_credit", "rates", "macro"],
+      "weight": 0.95,
+      "note": "Daily charts + commentary on credit conditions, HY spreads, PE flows. Apollo has direct visibility into private credit."
+    },
+    {
+      "name": "Concoda",
+      "url": "https://concoda.substack.com/feed",
+      "tier": 2,
+      "sector": "credit",
+      "clusters": ["credit", "repo", "liquidity", "rates"],
+      "weight": 0.8,
+      "note": "Deep dives on repo markets, collateral chains, shadow banking. Complements FedGuy on plumbing."
+    },
+    {
+      "name": "Bankless",
+      "url": "https://bankless.com/feed",
+      "tier": 2,
+      "sector": "crypto",
+      "clusters": ["crypto", "defi", "ethereum", "regulation"],
+      "weight": 0.75,
+      "note": "Broad crypto coverage, DeFi, protocol analysis. Ghost platform — /feed works."
+    },
+    {
+      "name": "The Block (Substack)",
+      "url": "https://theblockcrypto.substack.com/feed",
+      "tier": 2,
+      "sector": "crypto",
+      "clusters": ["crypto", "regulation", "institutional", "on_chain"],
+      "weight": 0.7,
+      "note": "Institutional crypto news. Good for regulatory signals and on-chain flow coverage. theblock.co RSS 404s — using Substack mirror."
+    },
+    {
+      "name": "SemiAnalysis (Dylan Patel)",
+      "url": "https://semianalysis.substack.com/feed",
+      "tier": 1,
+      "sector": "ai",
+      "clusters": ["ai", "semiconductors", "data_centers", "compute"],
+      "weight": 0.95,
+      "note": "Best semiconductor/AI infrastructure analysis. NVIDIA, TSMC, data center buildout. Paywalled — free posts still valuable."
+    },
+    {
+      "name": "Fabricated Knowledge",
+      "url": "https://www.fabricatedknowledge.com/feed",
+      "tier": 2,
+      "sector": "ai",
+      "clusters": ["ai", "semiconductors", "supply_chain"],
+      "weight": 0.8,
+      "note": "Semiconductor industry deep dives. Supply chain, EDA tools, foundry dynamics."
+    },
+    {
+      "name": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/feed/",
+      "tier": 3,
+      "sector": "ai",
+      "clusters": ["ai", "semiconductors"],
+      "weight": 0.5,
+      "note": "Technical semiconductor news. High volume — keyword filter recommended (AI, HBM, advanced packaging, chiplet)."
+    },
+    {
+      "name": "Bison Interests",
+      "url": "https://bisoninterests.substack.com/feed",
+      "tier": 2,
+      "sector": "equities",
+      "clusters": ["equities", "energy", "small_cap"],
+      "weight": 0.8,
+      "note": "Josh Young — E&P, energy equities, activist positions. PROP thesis source. bisoninterests.com 404s — using Substack."
+    }
+  ],
+  "poll_interval_hours": 6,
+  "max_content_age_days": 30,
+  "podcasts": [
+    {
+      "name": "Odd Lots",
+      "url": "https://feeds.bloomberg.com/oddlots-podcast/podcast.xml",
+      "tier": 1,
+      "type": "podcast",
+      "has_audio_enclosure": true,
+      "clusters": [
+        "macro_liquidity",
+        "credit_impulse",
+        "central_bank"
+      ],
+      "weight": 0.9,
+      "check_interval_hours": 24,
+      "max_episodes_per_check": 2,
+      "active": true
+    },
+    {
+      "name": "Macro Voices",
+      "url": "https://www.macrovoices.com/podcast-xml/macrovoices",
+      "tier": 1,
+      "type": "podcast",
+      "has_audio_enclosure": true,
+      "clusters": [
+        "macro_liquidity",
+        "regime_matrix"
+      ],
+      "weight": 0.9,
+      "check_interval_hours": 24,
+      "max_episodes_per_check": 2,
+      "active": true
+    },
+    {
+      "name": "Forward Guidance",
+      "url": "https://feeds.megaphone.fm/forward-guidance",
+      "tier": 1,
+      "type": "podcast",
+      "has_audio_enclosure": true,
+      "clusters": [
+        "macro_liquidity",
+        "crypto_macro"
+      ],
+      "weight": 0.8,
+      "check_interval_hours": 24,
+      "max_episodes_per_check": 2,
+      "active": true
+    },
+    {
+      "name": "We Study Billionaires",
+      "url": "https://feeds.simplecast.com/vW_xR7hE",
+      "tier": 2,
+      "type": "podcast",
+      "has_audio_enclosure": true,
+      "clusters": [
+        "macro_liquidity",
+        "credit_impulse"
+      ],
+      "weight": 0.7,
+      "check_interval_hours": 24,
+      "max_episodes_per_check": 1,
+      "active": true
+    },
+    {
+      "name": "Bankless Podcast",
+      "url": "https://feeds.megaphone.fm/bankless",
+      "tier": 2,
+      "type": "podcast",
+      "has_audio_enclosure": true,
+      "clusters": [
+        "crypto_macro",
+        "onchain",
+        "defi"
+      ],
+      "weight": 0.8,
+      "check_interval_hours": 24,
+      "max_episodes_per_check": 2,
+      "active": true
+    },
+    {
+      "name": "The DeFi Report",
+      "url": "https://feeds.simplecast.com/defi_report",
+      "tier": 2,
+      "type": "podcast",
+      "has_audio_enclosure": true,
+      "clusters": [
+        "crypto_macro",
+        "onchain",
+        "defi"
+      ],
+      "weight": 0.8,
+      "check_interval_hours": 24,
+      "max_episodes_per_check": 2,
+      "active": true
+    },
+    {
+      "name": "Milk Road Macro",
+      "url": "https://feeds.megaphone.fm/milkroad",
+      "tier": 2,
+      "type": "podcast",
+      "has_audio_enclosure": true,
+      "clusters": [
+        "crypto_macro",
+        "macro_liquidity"
+      ],
+      "weight": 0.8,
+      "check_interval_hours": 24,
+      "max_episodes_per_check": 2,
+      "active": true
+    },
+    {
+      "name": "The Oil Market Podcast",
+      "url": "https://roryjohnston.substack.com/feed",
+      "tier": 1,
+      "type": "podcast",
+      "has_audio_enclosure": true,
+      "clusters": [
+        "energy",
+        "commodities"
+      ],
+      "weight": 1.0,
+      "check_interval_hours": 24,
+      "max_episodes_per_check": 2,
+      "active": true
+    }
+  ]
+}

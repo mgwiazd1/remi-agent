@@ -1,0 +1,29 @@
+{
+  "name": "remi-intelligence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgwiazd1/remi-agent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgwiazd1/remi-agent/issues"
+  },
+  "homepage": "https://github.com/mgwiazd1/remi-agent#readme",
+  "dependencies": {
+    "@x402/axios": "^2.11.0",
+    "@x402/evm": "^2.11.0",
+    "axios": "^1.16.0",
+    "viem": "^2.48.8"
+  }
+}

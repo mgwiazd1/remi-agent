@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "description": "Book ingestion pipeline configuration",
+    "models": {
+      "chapter_extraction": "glm-5.1",
+      "cross_chapter_synthesis": "glm-5.1",
+      "fallback": "glm-4.7"
+    }
+  },
+  "detection": {
+    "min_pages_for_book": 80,
+    "toc_keywords": ["contents", "table of contents", "chapters"],
+    "chapter_heading_patterns": [
+      "^chapter\\s+\\d+",
+      "^part\\s+\\d+",
+      "^\\d+\\.\\s+[A-Z]",
+      "^[IVXLC]+\\.\\s+[A-Z]"
+    ]
+  },
+  "extraction": {
+    "max_chapter_tokens": 30000,
+    "overlap_pages": 1
+  },
+  "output": {
+    "vault_base": "/docker/obsidian/investing/Intelligence/Books",
+    "history_base": "/docker/obsidian/investing/Intelligence/History",
+    "write_as_user": "proxmox"
+  },
+  "prompts": {
+    "chapter_extraction": "You are a macro investment research analyst extracting structured intelligence from a book chapter.\n\nFor this chapter, extract:\n\n1. KEY_ARGUMENTS: The main claims or arguments (3-7 items). For each, note whether it's empirical (data-backed) or theoretical.\n\n2. HISTORICAL_EPISODES: Any historical events described in detail. For each:\n   - Event name and date range\n   - Economic/market conditions at the time\n   - What triggered it\n   - How it resolved\n   - Which asset classes benefited or suffered\n   - What signals were visible beforehand\n   - GLI regime analog: which phase (TURBULENCE/CALM/REBOUND/SPECULATION) best matches?\n\n3. MENTAL_MODELS: Any frameworks, models, or analytical tools introduced. For each:\n   - Name of the model/framework\n   - Core mechanism (how it works)\n   - When it applies (conditions)\n   - When it fails (limitations)\n   - How to use it for investment decisions\n\n4. TICKERS_AND_ASSETS: Any specific tickers, asset classes, sectors, or commodities discussed. Note the context (bullish/bearish/example).\n\n5. KEY_QUOTES: 2-3 quotes worth preserving verbatim, with context.\n\nReturn as JSON with these exact keys: key_arguments, historical_episodes, mental_models, tickers_and_assets, key_quotes.",
+    "cross_chapter_synthesis": "You are synthesizing intelligence extracted from all chapters of a book into structured Obsidian notes for a macro investment research vault.\n\nYou will receive chapter-by-chapter extractions. Produce:\n\n1. BOOK_OVERVIEW: A 300-500 word synthesis of the book's core thesis, how the argument builds across chapters, and its relevance to current macro conditions. Include: title, author, publication year, core thesis, key takeaways (5-7), relevance to current regime.\n\n2. FRAMEWORKS: For each mental model identified across chapters, create a standalone framework note. Include: name, origin (book + chapter), core mechanism, application conditions, limitations, current relevance, related frameworks.\n\n3. EPISODES: For each historical event described across chapters, create a standalone episode note. Include: event name, date range, preceding conditions, trigger, progression, resolution, assets that worked, assets that failed, GLI phase analog, signals that were visible early, lessons for current positioning.\n\nReturn as JSON with keys: book_overview, frameworks (array), episodes (array)."
+  }
+}

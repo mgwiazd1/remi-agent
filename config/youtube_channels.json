@@ -1,0 +1,115 @@
+{
+  "channels": [
+    {
+      "name": "Blockworks Macro",
+      "channel_url": "https://www.youtube.com/@BlockworksMacro",
+      "channel_id": "UCP1NPogk59lhBfO2F5OVQBw",
+      "tier": 1,
+      "clusters": [
+        "macro_liquidity",
+        "crypto_macro",
+        "central_bank"
+      ],
+      "check_interval_hours": 24,
+      "max_videos_per_check": 3,
+      "active": true
+    },
+    {
+      "name": "Wealthion",
+      "channel_url": "https://www.youtube.com/@Wealthion",
+      "channel_id": "UCKMeK-HGHfUFFArZ91rzv5A",
+      "tier": 2,
+      "clusters": [
+        "macro_liquidity",
+        "commodities"
+      ],
+      "check_interval_hours": 24,
+      "max_videos_per_check": 2,
+      "active": true
+    },
+    {
+      "name": "Less Noise More Signal",
+      "channel_url": "https://www.youtube.com/channel/UC-2IFxR0zucGOaPYwwEO0Sw",
+      "channel_id": "UC-2IFxR0zucGOaPYwwEO0Sw",
+      "tier": 1,
+      "clusters": [
+        "geopolitics",
+        "macro_liquidity",
+        "energy",
+        "central_bank"
+      ],
+      "check_interval_hours": 24,
+      "max_videos_per_check": 2,
+      "active": true
+    },
+    {
+      "name": "Real Vision",
+      "channel_url": "https://www.youtube.com/@RealVision",
+      "channel_id": "UCwSVtQvURxiyn1CQeyoExZg",
+      "tier": 1,
+      "clusters": [
+        "macro_liquidity",
+        "crypto_macro",
+        "commodities"
+      ],
+      "check_interval_hours": 24,
+      "max_videos_per_check": 2,
+      "active": true
+    },
+    {
+      "name": "Milk Road",
+      "channel_url": "https://www.youtube.com/@MilkRoadDaily",
+      "channel_id": "UCEaYvbpM1JI2HWKvnikBT-g",
+      "tier": 2,
+      "clusters": [
+        "crypto_macro",
+        "onchain"
+      ],
+      "check_interval_hours": 24,
+      "max_videos_per_check": 2,
+      "active": true
+    },
+    {
+      "name": "Bankless",
+      "channel_url": "https://www.youtube.com/@Bankless",
+      "channel_id": "UCAl9Ld79qaZxp9JzEOwd3aA",
+      "tier": 2,
+      "clusters": [
+        "crypto_macro",
+        "onchain",
+        "defi"
+      ],
+      "check_interval_hours": 24,
+      "max_videos_per_check": 2,
+      "active": true
+    },
+    {
+      "name": "Doomberg",
+      "channel_url": "https://www.youtube.com/@Doomberg",
+      "channel_id": "UCQvPDfGqPFxpUEyzRqDM33Q",
+      "tier": 1,
+      "clusters": [
+        "energy",
+        "commodities",
+        "geopolitics"
+      ],
+      "check_interval_hours": 24,
+      "max_videos_per_check": 2,
+      "active": true
+    },
+    {
+      "name": "Camel Finance",
+      "channel_url": "https://www.youtube.com/@camelfinance",
+      "channel_id": null,
+      "tier": 2,
+      "clusters": [
+        "macro_liquidity",
+        "crypto",
+        "commodities"
+      ],
+      "check_interval_hours": 24,
+      "max_videos_per_check": 2,
+      "active": true
+    }
+  ]
+}

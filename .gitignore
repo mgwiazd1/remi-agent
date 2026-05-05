@@ -1,16 +1,53 @@
-.env
-*.session
-signal-buffer.json
-*.key
-remi_intelligence.db
-logs/
+# Python
 __pycache__/
 *.pyc
+*.pyo
 .venv/
-*.egg-info/
-dist/
-.inbox-timestamps
-.inbox-processed
-digest.log
+venv/
+
+# Node
+node_modules/
+package-lock.json
+
+# Logs and runtime
 *.log
-remi-intelligence/.git/
+audit.log
+reprocess_overnight.log
+
+# Database
+*.db
+remi_dashboard.db
+
+# Backups
+*.bak
+*.bak.*
+
+# Session/build artifacts
+SESSION-*.md
+REMI-SESSION-*.md
+*.txt
+FINAL_*.md
+FIX_*.md
+BUILD_*.md
+IMPLEMENTATION_*.md
+INTEGRATION_*.md
+INTERFACE_*.md
+INTERFACE_*.json
+INTERFACE_*.txt
+POST_BUILD_CHECKLIST.md
+QUICK_FIX_REFERENCE.txt
+TASK_COMPLETION_SUMMARY.md
+VELOCITY_BUILD_SUMMARY.md
+YOUTUBE_TEST_RESULTS.md
+SYSTEM_VERIFICATION_COMPLETE.txt
+TABLE_OCR_TEST_REPORT.md
+MEDIA_INGESTOR_BUILD_REPORT.md
+PODCAST_PLATFORM_SUPPORT.md
+SUI_MONITOR_SETUP.md
+
+# Claude
+.claude/
+
+# Test files
+test_*.py
+.env
