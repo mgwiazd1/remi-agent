@@ -51,3 +51,4 @@ SUI_MONITOR_SETUP.md
 # Test files
 test_*.py
 .env
+watch/
