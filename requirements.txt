@@ -1,0 +1,7 @@
+# CROO Agent Protocol SDK — provides `croo` (AgentClient, Config, ListOptions,
+# DeliverOrderRequest, DeliverableType). Install per CROO's SDK instructions if
+# this package name/version differs in your environment.
+croo
+
+# Optional: load configuration from a local .env at startup.
+python-dotenv

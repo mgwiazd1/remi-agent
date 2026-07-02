@@ -1,0 +1,19 @@
+# secrets / local env
+.env*
+*.pem
+*.key
+
+# data / logs (never ship the pipeline's stores)
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# internal config / vault (not part of the public provider)
+config/
+vault/
+
+# python
+__pycache__/
+*.pyc
+.venv/
