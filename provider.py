@@ -77,7 +77,7 @@ def _format_regime_report(data: dict) -> str:
     nfci = stress.get("nfci_score", stress.get("nfci", 0))
     curve_10_2 = stress.get("yield_curve_10_2", 0)
     curve_10_3m = stress.get("yield_curve_10_3m", 0)
-    risk_score = stress.get("composite_risk_score", regime.get("transition_risk_score", 0))
+    risk_score = stress.get("composite_risk_score", stress.get("composite_risk", regime.get("transition_risk_score", regime.get("transition_risk", 0))))
     fiscal_dom = regime.get("fiscal_dominance_score", regime.get("fiscal_dominance", 0))
     gli_val = regime.get("gli_value_trn", regime.get("gli_value", "N/A"))
     snap_date = regime.get("gli_snapshot_date", regime.get("snapshot_date", "N/A"))
